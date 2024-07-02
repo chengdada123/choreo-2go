@@ -1,0 +1,38 @@
+{ "inbounds": [
+    {
+      "port": 3000,
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "7464eb82-b9bb-408f-9e7d-8565d0866cd9",
+            "alterId": 0
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "",
+        "tlsSettings": {
+          "serverName": "localhost",
+          "certificates": [
+            {
+              "certificateFile": "",
+              "keyFile": ""
+            }
+          ]
+        },
+        "tcpSettings": {
+          "path": "/",
+          "headers": {}
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
